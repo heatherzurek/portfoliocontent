@@ -3,8 +3,9 @@ body {
     color: black;
     font-family: 'Lato', sans-serif;
     text-align: center;
-    margin: 40 15 40 15px;
+    margin: 45 15 45 15px;
 }
+
 .box{
     display: flex;
     flex-direction: column;
@@ -14,9 +15,6 @@ body {
     color: #82e6c2;
     text-transform: uppercase;
     margin: 0;
-}
-.about {
-    width: 50%;
 }
 .highlight {
     color: #e8a0d0;
@@ -60,4 +58,7 @@ img {
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) { 
+    .container {
+        width: 100%
+    }
 }

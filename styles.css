@@ -53,6 +53,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 40px;
 }
 footer {
     margin-top: 40px;

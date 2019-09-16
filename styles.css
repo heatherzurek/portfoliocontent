@@ -2,10 +2,8 @@ body {
     background-color: white;
     color: black;
     font-family: 'Lato', sans-serif;
-    text-align: center;
     margin: 45 15 45 15px;
 }
-
 .box{
     display: flex;
     flex-direction: column;
@@ -26,11 +24,6 @@ body {
 .highlight-three {
     color: #88DEEA;
     font-weight: bold;
-}
-.box-two {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
 }
 hr {
     margin-top: 30px;
@@ -55,10 +48,10 @@ img {
     justify-content: center;
 }
 
-@media only screen 
+/* @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) { 
     .container {
         width: 100%
     }
-}
+} */

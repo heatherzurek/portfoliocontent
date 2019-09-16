@@ -22,14 +22,14 @@ body {
     margin: 0;
 }
 .highlight {
-    color: #e8a0d0;
+    color: #5bc79f;
 }
 .highlight-two {
     color: #a79de0;
     font-weight: bold;
 }
 .highlight-three {
-    color: #88DEEA;
+    color: #76c7d2;
     font-weight: bold;
 }
 hr {
@@ -39,7 +39,7 @@ hr {
     width: 80px;
 }
 a {
-    color: #88DEEA;
+    color: #76c7d2;
 }
 a:hover{
     font-weight: bold;
@@ -53,6 +53,10 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+footer {
+    margin-top: 40px;
+    text-align: center;
 }
 
 @media only screen 

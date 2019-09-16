@@ -55,10 +55,10 @@ img {
     justify-content: center;
 }
 
-/* @media only screen 
+@media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) { 
-    .container {
-        width: 100%
+    .box {
+        width: 95%
     }
-} */
+}

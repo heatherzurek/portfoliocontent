@@ -16,21 +16,19 @@ body {
     flex-direction: column;
     text-align: left;
 } */
-.title {
+/* .title {
     color: #82e6c2;
     text-transform: uppercase;
     margin: 0;
-}
+} */
 .highlight {
     color: #5bc79f;
 }
 .highlight-two {
     color: #a79de0;
-    font-weight: bold;
 }
 .highlight-three {
     color: #76c7d2;
-    font-weight: bold;
 }
 hr {
     margin-top: 30px;
@@ -40,14 +38,20 @@ hr {
 }
 a {
     color: #76c7d2;
+    text-decoration: none;
 }
 a:hover{
     font-weight: bold;
+    color: #5bc79f;
     text-transform: uppercase;
 }
 img {
     color: grey;
     margin: 0 15px;
+}
+.techStack {
+    display: flex;
+    flex-direction: column;
 }
 .socialLinks {
     display: flex;
@@ -64,6 +68,6 @@ footer {
 and (min-device-width : 375px) 
 and (max-device-width : 667px) { 
     .box {
-        width: 95%
+        width: 100%
     }
 }

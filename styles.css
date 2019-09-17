@@ -16,16 +16,11 @@ body {
     flex-direction: column;
     text-align: left;
 } */
-/* .title {
-    color: #82e6c2;
-    text-transform: uppercase;
-    margin: 0;
-} */
 .highlight {
     color: #5bc79f;
 }
 .highlight-two {
-    color: #a79de0;
+    color: #8273da;
 }
 .highlight-three {
     color: #76c7d2;
@@ -43,10 +38,8 @@ a {
 a:hover{
     font-weight: bold;
     color: #5bc79f;
-    text-transform: uppercase;
 }
 img {
-    color: grey;
     margin: 0 15px;
 }
 .techStack {
